@@ -49,15 +49,7 @@ jobs:
           npm install
           cp CONTRIBUTORS.svg .deploy
 
-      - name: Create Tag
-        id: create_tag
-        uses: jaywcjlove/create-tag-action@main
-        with:
-          package-path: ./package.json
 
-      - name: Get Tag Version
-        id: tag_version
-        uses: jaywcjlove/changelog-generator@main
 
       # Create Docker Image
       - name: Set up Docker Buildx
