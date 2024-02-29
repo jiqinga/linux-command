@@ -41,7 +41,23 @@ jobs:
           closeDelimiter: '<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->'
           body: |
             ${{steps.contributors.outputs.htmlList}}
+      - run: npm install
+      - run: cp CONTRIBUTORS.svg .deploy
 
+      - name: Build Linux Command
+        run: |
+          npm install
+          cp CONTRIBUTORS.svg .deploy
+
+      - name: Create Tag
+        id: create_tag
+        uses: jaywcjlove/create-tag-action@main
+        with:
+          package-path: ./package.json
+
+      - name: Get Tag Version
+        id: tag_version
+        uses: jaywcjlove/changelog-generator@main
 
       # Create Docker Image
       - name: Set up Docker Buildx
