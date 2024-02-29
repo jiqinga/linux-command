@@ -657,6 +657,9 @@ https://raw.githubusercontent.com/jaywcjlove/linux-command/master/command/<命�
 <a href="https://github.com/hunantangke" title="tangke">
   <img src="https://avatars.githubusercontent.com/u/22476435?v=4" width="42;" alt="tangke"/>
 </a>
+<a href="https://github.com/sunls2" title="sunls24">
+  <img src="https://avatars.githubusercontent.com/u/57647932?v=4" width="42;" alt="sunls24"/>
+</a>
 <a href="https://github.com/snovey" title="snovey">
   <img src="https://avatars.githubusercontent.com/u/15171147?v=4" width="42;" alt="snovey"/>
 </a>
@@ -671,9 +674,6 @@ https://raw.githubusercontent.com/jaywcjlove/linux-command/master/command/<命�
 </a>
 <a href="https://github.com/MinsonLee" title="MinsonLee">
   <img src="https://avatars.githubusercontent.com/u/22138919?v=4" width="42;" alt="MinsonLee"/>
-</a>
-<a href="https://github.com/jiqinga" title="Maximo Helin">
-  <img src="https://avatars.githubusercontent.com/u/41818729?v=4" width="42;" alt="Maximo Helin"/>
 </a>
 <a href="https://github.com/Marnm" title="Marnm">
   <img src="https://avatars.githubusercontent.com/u/13164237?v=4" width="42;" alt="Marnm"/>
@@ -743,6 +743,9 @@ https://raw.githubusercontent.com/jaywcjlove/linux-command/master/command/<命�
 </a>
 <a href="https://github.com/apnpc" title="Alan">
   <img src="https://avatars.githubusercontent.com/u/39884597?v=4" width="42;" alt="Alan"/>
+</a>
+<a href="https://github.com/daydaygo" title="dayday">
+  <img src="https://avatars.githubusercontent.com/u/3986303?v=4" width="42;" alt="dayday"/>
 </a>
 <a href="https://github.com/cxalc" title="cxalc">
   <img src="https://avatars.githubusercontent.com/u/79086256?v=4" width="42;" alt="cxalc"/>
@@ -824,9 +827,6 @@ https://raw.githubusercontent.com/jaywcjlove/linux-command/master/command/<命�
 </a>
 <a href="https://github.com/RocherKong" title="Rocher">
   <img src="https://avatars.githubusercontent.com/u/10215178?v=4" width="42;" alt="Rocher"/>
-</a>
-<a href="https://github.com/robigus" title="Robigus">
-  <img src="https://avatars.githubusercontent.com/u/8164967?v=4" width="42;" alt="Robigus"/>
 </a><!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
 贡献者列表，由 [contributors](https://github.com/jaywcjlove/github-action-contributors) 自动生成
