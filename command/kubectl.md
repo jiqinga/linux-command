@@ -12,7 +12,7 @@ kubectl
 # Ubuntu
 sudo apt-get install kubectl
 
-# Centos
+# Centos/Redhat
 yum install kubectl
 
 ```
