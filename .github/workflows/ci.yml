@@ -17,13 +17,6 @@ jobs:
           node-version: 18
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Generate Contributors Images
-        uses: jaywcjlove/github-action-contributors@main
-        id: contributors
-        with:
-          filter-author: (renovate\[bot\]|renovate-bot|@github-actions-bot|dependabot\[bot\])
-          avatarSize: 42
-
       - name: Modify README.md
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
@@ -50,15 +43,7 @@ jobs:
           npm install
           npm run dash
           cp CONTRIBUTORS.svg .deploy
-      - name: Create Tag
-        id: create_tag
-        uses: jaywcjlove/create-tag-action@main
-        with:
-          package-path: ./package.json
 
-      - name: Get Tag Version
-        id: tag_version
-        uses: jaywcjlove/changelog-generator@main
 
       - name: Update Dash Feed
         run: |
