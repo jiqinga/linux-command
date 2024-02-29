@@ -47,12 +47,7 @@ jobs:
         run: |
           echo "${{steps.create_tag.outputs.versionNumber}}https://jaywcjlove.github.io/linux-command/linux-command.docset.tgz>" > .deploy/linux-command-docset.xml
 
-      - name: Generate Changelog
-        id: changelog
-        uses: jaywcjlove/changelog-generator@main
-        with:
-          filter-author: (小弟调调™)
-          filter: (^[\s]+?[R|r]elease)|(^[R|r]elease)
+
 
       - run: rm -rf .deploy/linux-command.docset 
       # Create Docker Image
