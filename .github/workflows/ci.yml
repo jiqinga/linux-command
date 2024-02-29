@@ -48,7 +48,7 @@ jobs:
       - name: Build Linux Command
         run: |
           npm install
-          npm run dash重试错误原因
+          npm run dash
           cp CONTRIBUTORS.svg .deploy
       - name: Create Tag
         id: create_tag
@@ -56,7 +56,7 @@ jobs:
         with:
           package-path: ./package.json
 
-      - name: Get Tag Version重试错误原因
+      - name: Get Tag Version
         id: tag_version
         uses: jaywcjlove/changelog-generator@main
 
